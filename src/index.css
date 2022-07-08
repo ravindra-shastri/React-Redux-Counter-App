@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  color: rgb(148, 62, 62);
+}
+
+.App {
+  text-align: center;
+}
+.App h1{
+  font-size: 4.5em;
+}
+.active {
+  padding: .3rem 1rem;
+  margin: 4px;
+  font-size: .9rem;
+  font-weight: 600;
+  background-color: rgb(10, 168, 115);
+  color: white;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: rgb(95, 154, 6);
+  color: white;
+  padding: .3rem .6rem;
+  margin: 4px;
+  border-radius: .2rem;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.step-btn {
+  padding: .3rem 1rem;
+  margin: 4px;
+  font-size: .9rem;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.extension{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.step{
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
