@@ -7,11 +7,11 @@ function Steps(props) {
   }
   return (
     <>
-      <button className={props.step === 5 ? "active" : "step-btn"}
+      <button className={props.steps === 5 ? "active" : "step-btn"}
         onClick={() => handleClick(5)}>5</button>
-      <button className={props.step === 10 ? "active" : "step-btn"}
+      <button className={props.steps === 10 ? "active" : "step-btn"}
         onClick={() => handleClick(10)}>10</button>
-      <button className={props.step === 15 ? "active" : "step-btn"}
+      <button className={props.steps === 15 ? "active" : "step-btn"}
         onClick={() => handleClick(15)}>15</button>
     </>
   )

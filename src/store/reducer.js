@@ -1,7 +1,7 @@
 import { createStore } from 'redux';
 
 
-function reducer(state = { value: 0, step: 5, maxvalue: 15 }, action) {
+function reducer(state = { value: 0, step: 1, maxvalue: Infinity }, action) {
   switch (action.type) {
     case "increment":
       if (state.value + state.step > state.maxvalue) return { ...state }

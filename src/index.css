@@ -12,10 +12,12 @@ code {
     monospace;
 }
 
-.header {
+.header{
   color: rgb(148, 62, 62);
 }
-
+.count{
+  color: rgb(255, 123, 123);
+}
 .App {
   text-align: center;
 }

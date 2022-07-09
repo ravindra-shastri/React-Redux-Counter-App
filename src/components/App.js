@@ -8,7 +8,7 @@ function App(props) {
   return (
     <div className="App">
       <Header />
-      <h1>{props.count}</h1>
+      <h1 className="count">{props.count}</h1>
       <div className="extension">
         <div className="step">
           <h2> Steps </h2>
