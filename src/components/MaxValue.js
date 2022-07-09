@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import {updateMaxValue} from '../store/action';
+import { updateMaxValue } from '../store/action';
 
 function MaxValue(props) {
   function handleMaxValue(maxvalue) {
@@ -7,16 +7,22 @@ function MaxValue(props) {
   }
   return (
     <>
-      <button className={props.maxvalue === 15 ? "active" : "step-btn"}
-        onClick={() => handleMaxValue(15)}>
+      <button
+        className={props.maxvalue === 15 ? "active" : "step-btn"}
+        onClick={() => handleMaxValue(15)}
+      >
         15
       </button>
-      <button className={props.maxvalue === 100 ? "active" : "step-btn"}
-        onClick={() => handleMaxValue(100)}>
+      <button
+        className={props.maxvalue === 100 ? "active" : "step-btn"}
+        onClick={() => handleMaxValue(100)}
+      >
         100
       </button>
-      <button className={props.maxvalue === 200 ? "active" : "step-btn"}
-        onClick={() => handleMaxValue(200)}>
+      <button
+        className={props.maxvalue === 200 ? "active" : "step-btn"}
+        onClick={() => handleMaxValue(200)}
+      >
         200
       </button>
     </>

@@ -8,7 +8,9 @@ function App(props) {
   return (
     <div className="App">
       <Header />
-      <h1 className="count">{props.count}</h1>
+      <h1 className="count">
+        {props.count}
+      </h1>
       <div className="extension">
         <div className="step">
           <h2> Steps </h2>
@@ -19,13 +21,22 @@ function App(props) {
           <MaxValue />
         </div>
       </div>
-      <button className="btn" onClick={() => props.dispatch(increment())}>
+      <button
+        className="btn"
+        onClick={() => props.dispatch(increment())}
+      >
         Increment
       </button>
-      <button className="btn" onClick={() => props.dispatch(decrement())}>
+      <button
+        className="btn"
+        onClick={() => props.dispatch(decrement())}
+      >
         Decrement
       </button>
-      <button className="btn" onClick={() => props.dispatch(reset())}>
+      <button
+        className="btn"
+        onClick={() => props.dispatch(reset())}
+      >
         Reset
       </button>
     </div>
